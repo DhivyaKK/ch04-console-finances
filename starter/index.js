@@ -99,6 +99,7 @@ var changeInProfitPerMonth = [];
 
 console.log("Given financial dataset is :" + "\n" + finances);
 
+console.log ("\n" + "Financial Analysis" + "\n" + "------------------");
 //The total number of months included in the dataset
 totalNoOfMonths = finances.length;
 
