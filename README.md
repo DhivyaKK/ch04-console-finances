@@ -14,17 +14,24 @@ JavaScript concepts such as variables, loops, string concatenation, arrays and m
 4. The greatest increase in profit/losses over the entire period
 5. The greatest decrease in profit/losses over the entire period
 
+The below math functions are used in the project to workout complex mathematical calculations:
+1. Math.min() to return the minimum value from the given set of values
+2. Math.max() to return the maximum value from the given set of values
+3. Math.round() to round of to the nearest decimal value
+4. (...) spread operator allows an iterable such as array or string to be expanded in places where
+zero or more arguments are expected. 
+
 ### Usage
 Open the web page using the URL :
 
 On the keyboard, press the keys fn + F12 or right click anywhere on the webpage and choose the option 'Inspect'.
 
 The output of the calculcations carried out on the financial dataset should be visible.
-![output](image.png)
+![output](image-1.png)
 
 ### License
 
-Licensed under MIT License.
+MIT License.
 
 
 
