@@ -22,7 +22,9 @@ The below math functions are used in the project to workout complex mathematical
 zero or more arguments are expected. 
 
 ### Usage
-Open the web page using the URL :
+Open the web page using the URL : https://dhivyakk.github.io/ch04-console-finances/
+
+The github code is accessible : git@github.com:DhivyaKK/ch04-console-finances.git
 
 On the keyboard, press the keys fn + F12 or right click anywhere on the webpage and choose the option 'Inspect'.
 
