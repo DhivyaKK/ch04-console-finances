@@ -1,3 +1,4 @@
+//Given the financial dataset
 var finances = [
   ['Jan-2010', 867884],
   ['Feb-2010', 984655],
@@ -86,3 +87,56 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+//variable declaration
+var totalNoOfMonths = 0;
+var totalProfit = 0;
+var avgChange = 0;
+var maxIncreasePF =0;
+var maxDecreasePF = 0;
+var temp = [];
+var maxChange =[];
+
+//The total number of months included in the dataset
+totalNoOfMonths = finances.length;
+
+console.log("Total months : " +  totalNoOfMonths);
+
+//The net total amount of Profit/Losses over the entire period
+
+for(var i=0; i<finances.length; i++)
+ {
+   totalProfit = totalProfit + finances[i][1];
+  
+ }
+
+console.log("Total profit: " + "$"+ totalProfit);
+
+for(var i=0; i<finances.length-1; i++)
+ {
+ temp[i,i] =[finances[i+1][0], finances[i+1][1]-finances[i][1]];
+
+ //to calculate sum of change in profit each month
+ avgChange += finances[i+1][1]-finances[i][1];
+
+ maxChange[i] = (finances[i+1][1]-finances[i][1]);
+ 
+}
+
+
+//Average change in profit for the given data
+console.log("Avgerage change : " +  (avgChange) /85);
+
+maxIncreasePF = Math.max(...maxChange);
+maxDecreasePF = Math.min(...maxChange);
+console.log ("Greatest Increase in Profits/Losses:" + temp[maxChange.indexOf(maxIncreasePF)]);
+console.log ("Greatest Decrease in Profits/Losses:" + temp[maxChange.indexOf(maxDecreasePF)]);
+
+
+
+
+
+
+
+
+
