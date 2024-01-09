@@ -1,6 +1,6 @@
 # Console Finances
 
-## This is a JavaScript project for beginners to analyze the financial records of company.
+This is a JavaScript project for beginners to analyze the financial records of company.
 
 ### Description
 
